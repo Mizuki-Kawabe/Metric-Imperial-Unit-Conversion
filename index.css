@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+    margin: 0;
+    text-align: center;
+    background:#F4F4F4;
+    font-family: 'Inter';
+}
+
+#container{
+    background: #F4F4F4;
+    ;
+    /*Stack elements vertically*/
+    display: block;
+    /*	If overflow is clipped, a scroll-bar should be added to see the rest of the content*/
+    overflow: auto;
+    width: 70vw;
+    max-width: 900px;
+    min-width: 400px;
+    margin: 4rem auto;
+    border-radius: 20px;
+    border: 10px solid #fff;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+}
+
+.ppl{
+    height: 100%;
+    width: 100%;
+    background: #6943FF;
+    flex-direction:column;
+    display: block;
+}
+
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+  }
+
+h1{
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2rem;
+    color: #FFFFFF;
+    letter-spacing: -0.03em;
+    padding-top: 3rem;
+}
+
+h2{
+    font-size: 1rem;
+    font-weight: 600;
+    font-style: normal;
+    text-align: center;
+    color: #5A537B;
+    margin-bottom: 2rem;
+}
+
+p{
+    font-weight: 400;
+    color: #353535;
+}
+
+#input-number{
+    display: block;
+    width: 11rem;
+    height: 7rem;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 5rem;
+    color: #FFF9EC;
+    margin: 2rem auto;
+    text-align: center;
+    font-family: 'Inter';
+    font-weight: bolder;
+}
+
+#btn{
+    border: none;
+    width: 7rem;
+    height: 3rem;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #3D3D3D;
+    margin-bottom: 2rem;
+}
+
+#btn:hover {background-color: #ea95ff;
+    ;
+    ;
+}
+
+#btn:active {
+  background-color: #B295FF;
+  ;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+
+.con-el{
+    margin: 2rem auto;
+    padding-top: 1.5rem;
+    width: 90%;
+    height: 108.57px;
+    background:#FFFFFF;
+    border-radius: 4.68077px 0px 0px 0px;
+}
+
